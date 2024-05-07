@@ -1,0 +1,7 @@
+- hosts: all
+  remote_user: root
+  roles:
+    - upgrade-all-packages
+    - install-development-tools
+    - install-httpd
+    - install-wordpress
